@@ -28,4 +28,6 @@
     <color name="toast_gray">#99000000</color>
     <color name="red">#FF0000</color>
     <color name="navi_gray">#676D75</color>
+    <color name="search_dst">#F2C94C</color>
+    <color name="btn">#FF9D25</color>
 </resources>
