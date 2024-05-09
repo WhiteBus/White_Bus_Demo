@@ -1,6 +1,7 @@
 plugins {
-    alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("com.android.application")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -33,10 +34,18 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+    }
 }
 
 dependencies {
-
+    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-database-ktx")
+    implementation ("com.google.firebase:firebase-auth-ktx")
+    implementation ("com.kakao.sdk:v2-user:2.12.1") // 카카오 로그인
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

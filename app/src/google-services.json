@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1001131406584",
+    "project_id": "whitebus-a0fcc",
+    "storage_bucket": "whitebus-a0fcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001131406584:android:a7e58779573299f8c6f70d",
+        "android_client_info": {
+          "package_name": "com.mobile_programing.white_bus_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWq-7Pn7F8jy2m5vcctaI4qRYchy7FGUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
